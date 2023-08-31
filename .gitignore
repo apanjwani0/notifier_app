@@ -3,28 +3,42 @@
 *.log
 *.pyc
 *.swp
+*.bak
+*.bak.*
+*.cache
 *.DS_Store
-*.iml
-*.ipr
-*.iws
+*.firebaserc
+*.idea/
+*.pbxuser
+*.tmp*
+.DS_Store
+.Spotlight-V100
+.Trashes
+*.lock
+*.swp
+*.log
 *.bak
 *.swp
-*.user
-*.lock
-*.DS_Store
-*.breakpoints
-*.idea
-*.vscode
-*.history
+*.bak.*
+*.cache
+*.idea/
+*.pbxuser
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
 .flutter-plugins
+.flutter-plugins-dependencies
 .packages
-.pub-cache/
 .pub/
-/build/
+.pub-cache/
+build/
+packages
 
 # Android related
 **/android/**/gradle-wrapper.jar
@@ -35,25 +49,37 @@
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
 
-# iOS related
+# iOS/XCode related
 **/ios/**/*.mode1v3
 **/ios/**/*.mode2v3
 **/ios/**/*.moved-aside
 **/ios/**/*.pbxuser
-**/ios/*.perspectivev3
-**/ios/**/Profile
+**/ios/**/.DS_Store
+**/ios/**/.hg/
+**/ios/**/.mbox
+**/ios/**/.meteor/
+**/ios/**/.svn/
+**/ios/**/_FOSSIL_/
+**/ios/.idea/
+**/ios/.vagrant/
+**/ios/Carthage/Build/
+**/ios/DerivedData/
+**/ios/.dart_tool/
+**/ios/.flutter-plugins
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/profile
 **/ios/**/xcuserdata
 **/ios/.generated/
 **/ios/Flutter/App.framework
 **/ios/Flutter/Flutter.framework
 **/ios/Flutter/Generated.xcconfig
 **/ios/Flutter/app.flx
-**/ios/Flutter/app.zip
 **/ios/Flutter/flutter_assets/
 **/ios/Flutter/flutter_export_environment.sh
-**/ios/Flutter/flutter_export_environment_*.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
