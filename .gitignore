@@ -14,23 +14,8 @@
 .DS_Store
 .Spotlight-V100
 .Trashes
-*.lock
-*.swp
-*.log
-*.bak
-*.swp
-*.bak.*
-*.cache
-*.idea/
-*.pbxuser
-.DS_Store
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 
 # Flutter/Dart/Pub related
-**/doc/api/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -47,7 +32,6 @@ packages
 **/android/gradlew
 **/android/gradlew.bat
 **/android/local.properties
-**/android/**/GeneratedPluginRegistrant.java
 
 # iOS/XCode related
 **/ios/**/*.mode1v3
@@ -71,15 +55,6 @@ packages
 **/ios/profile
 **/ios/**/xcuserdata
 **/ios/.generated/
-**/ios/Flutter/App.framework
-**/ios/Flutter/Flutter.framework
-**/ios/Flutter/Generated.xcconfig
-**/ios/Flutter/app.flx
-**/ios/Flutter/flutter_assets/
-**/ios/Flutter/flutter_export_environment.sh
-**/ios/ServiceDefinitions.json
-**/ios/Runner/GeneratedPluginRegistrant.*
 
-# Exceptions to above rules.
-!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
-
+# IDE related
+*.iml
